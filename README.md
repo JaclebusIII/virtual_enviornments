@@ -7,10 +7,12 @@ This will install python if you don't already have it
     sudo apt-get install python3.x.
 
 ### To install Venv: Only for python versions 3.x:
+Venv is the standard virtual environment package. Every python distribution has its own venv and development tools. The command below will install venv for a particular python version. 
 
     sudo apt-get install python3.x-devel
     
 ### To install Virtualenv: For all python versions:
+Virtualenv is a 3rd party library and it has one version which supports all of the python distributions. The command below can be run after installing python and  will install the library.
 
     pip install virtualenv
 
