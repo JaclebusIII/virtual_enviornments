@@ -18,34 +18,34 @@ Virtualenv is a 3rd party library and it has one version which supports all of t
 
 ## Creating a new project with a virtual Environment
 ### Venv tool
-The following command can be executed in the terminal to create a new virtual Environment called venv.
+The following command can be executed in the terminal to create a new virtual Environment called my_venv.
    
-    python -m venv venv 
+    python -m venv path/to/my_venv 
 
 The next command will activate the Environment.
 
-    source venv/Scripts/activate
+    source path/to/my_venv /Scripts/activate
 
-Then your terminal username should have the "(venv)" prefix. 
+Then your terminal username should have the "(my_venv)" prefix. 
 
-    (venv) jackwarren@gypsum:~/Documents/repos/Point-GNN$
+    (my_venv) jackwarren@gypsum:~/Documents/repos/Point-GNN$
 
 You can deactivate the environment at any time with the simple command:
 
     deactivate 
 
 ### Virtualenv
-The following command can be executed in the terminal to create a new virtual Environment called venv.
+The following command can be executed in the terminal to create a new virtual Environment called my_venv.
    
-    virtualenv --python="path/to/python/.exe" venv
+    virtualenv --python="path/to/python/.exe" path/to/my_venv 
 
 The next command will activate the Environment.
 
-    source venv/bin/activate
+    source path/to/my_venv/bin/activate
 
 Then your terminal username should have the "(venv)" prefix. 
 
-    (venv) jackwarren@gypsum:~/Documents/repos/Point-GNN$
+    (my_venv) jackwarren@gypsum:~/Documents/repos/Point-GNN$
 
 You can deactivate the environment at any time with the simple command:
 
